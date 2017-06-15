@@ -14,20 +14,6 @@ class Tencent_weixin{
 			id=i;
 			name=n;
 		}
-		void Save();//----------------������Ϣ���ļ� 
-		const void put();//-----------���������Ϣ 
-		const void jiemian();//-------��½���� 
-		void Haoyoujiemian();//-------����List1 
-		void load();//------------------��ȡ�����б� 
-		void save_haoyou();//---------������ѵ��ļ� 
-		void deletelink();//----------�������
-		void linkfriend_put();//----------���ҹ����˺ź���
-		void linkQ_put();//---------------���ҹ����˺���Ϣ
-		void load_weiqun();//-------------������ȡ΢����Ϣ�ļ�
-		void weiqun_Apply();//------------����΢��Ⱥ
-		void weiqun_put();//--------------�������Ⱥ����Ϣ
-		void weiqun_delete();//-----------�˳�Ⱥ
-		void weiqun_manage();//-----------����Ⱥ
 	protected:
 };
 #endif
