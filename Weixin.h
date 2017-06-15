@@ -29,15 +29,6 @@ class Tencent_weixin{
 		void weiqun_delete();//-----------�˳�Ⱥ
 		void weiqun_manage();//-----------����Ⱥ
 	protected:
-		string id;//----------------------���� 
-		string name;//--------------------���� 
-		Date birthday;//------------------���� 
-		Date tyear;//---------------------����ʱ�� 
-		Address where;//------------------��ַ 
-		string key;//---------------------���� 
-		List1 fried;//--------------------weixin�������� 
-		List2 weiqun;//-------------------weixinȺ�洢Ⱥ���� 
-		string Beizhu;//------------------���ѱ�ע 
 };
 #endif
 
