@@ -150,11 +150,9 @@ void List1::List1_delete(){
 		if(*it==a)
 		{
 			list.erase(it);
-			it++;
+			continue;
 		}
-		else
-		{
-		it++;}
+		it++;
 	}
 	cout<<"Existing friends:"<<list.size()<<"ÈË"<<"\n"; 
 }

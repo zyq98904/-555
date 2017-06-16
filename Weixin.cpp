@@ -223,7 +223,7 @@ void Tencent_weixin::deletelink(){
 	 in>>zhong;
 	 in>>QQid;
 	 cout<<"You are associated with the QQ account for:"<<QQid<<"\n";
-	 cout<<"Whether to contact the association?(y/n)n";
+	 cout<<"Whether to contact the association?(y/n)\n";
 	 cin>>ch;
 	 if(ch=='y'||ch=='Y')
 	 {

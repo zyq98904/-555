@@ -176,7 +176,8 @@ void Tencent_QQqun::tiren(){
 		in1.close();//-------------将文件信息读取到内存
 		for(vector<string>::iterator it1=zqid.begin();it1!=zqid.end();)
 		{
-			if(*it1==stringid){
+			if(*it1==stringid)
+			{
 				zqid.erase(it1);
 				continue;
 			}
